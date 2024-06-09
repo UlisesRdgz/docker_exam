@@ -17,7 +17,7 @@ public class ErrorResponse {
     /**
      * The timestamp when the error occurred.
      */
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh-mm-ss")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS")
     private final LocalDateTime timestamp;
 
     /**
