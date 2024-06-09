@@ -10,4 +10,11 @@ import com.urdgz.docker_exam.model.User;
  * @author Ulises Rodríguez García.
  */
 public interface UserRepository extends JpaRepository<User, Integer> { 
+
+    /**
+     * Checks if a User with the given email exists in the database.
+     * @param email the email to check for existence
+     * @return true if an entity with the given email exists, false otherwise
+     */
+    boolean existsByEmail(String email);
 }
