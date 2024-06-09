@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DockerExamApplication<docker_exam>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.urdgz.docker_exam.DockerExamApplication",
+            "projectName": "docker_exam",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
